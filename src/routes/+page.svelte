@@ -1,3 +1,14 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+
+<script>
+    import Hd from "$lib/comps/header.svelte"
+    import HERO from "$lib/comps/hero.svelte"
+    import CONTACT from "$lib/comps/contact.svelte"
+    import DEST from "$lib/comps/dest.svelte"
+    import OFFERS from "$lib/comps/offers.svelte"
+
+</script>
+<Hd></Hd>
+<HERO></HERO>
+<DEST></DEST>
+<OFFERS></OFFERS>
+<CONTACT></CONTACT>
