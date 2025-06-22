@@ -1,58 +1,60 @@
-# Svelte library
+# ✈️ mhtravels.ma
 
-Everything you need to build a Svelte library, powered by [`sv`](https://npmjs.com/package/sv).
+_static website for @mhtravels_
 
-Read more about creating a library [in the docs](https://svelte.dev/docs/kit/packaging).
+## 🌟 Overview
 
-## Creating a project
+Welcome to the **mhtravels.ma** repository!  
+This project is a static website built for [@mhtravels](https://github.com/mrmo7ox), showcasing travel services and information.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🛠️ Tech Stack
 
-```bash
-# create a new project in the current directory
-npx sv create
+- 🧡 **Svelte** – Main framework (80%)
+- 🎨 **CSS** – Styling (9%)
+- 💡 **JavaScript** – Interactivity (7%)
+- 📄 **HTML** – Structure (3%)
 
-# create a new project in my-app
-npx sv create my-app
+## 🚀 Getting Started
+
+1. **Clone this repo**  
+   ```bash
+   git clone https://github.com/mrmo7ox/mhtravels.ma.git
+   cd mhtravels.ma
+   ```
+
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**  
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**  
+   ```bash
+   npm run build
+   ```
+
+## 📁 Directory Structure
+
+```
+mhtravels.ma/
+├── public/        # Static assets
+├── src/           # Svelte source code
+├── package.json   # Project config
+└── ...
 ```
 
-## Developing
+## ✨ Features
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Responsive design 📱
+- Fast and lightweight ⚡
+- Modern Svelte-based architecture 🧡
 
-```bash
-npm run dev
+## 📬 Contact
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+For inquiries, reach out to [@mrmo7ox](https://github.com/mrmo7ox).
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
-
-## Building
-
-To build your library:
-
-```bash
-npm run package
-```
-
-To create a production version of your showcase app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
+---
