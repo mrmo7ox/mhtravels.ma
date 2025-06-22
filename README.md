@@ -4,7 +4,7 @@ _static website for @mhtravels_
 
 ## 🖼️ Website Preview
 
-[Websitecreenshot](https://raw.githubusercontent.com/mrmo7ox/mhtravels.ma/refs/heads/master/screencapture-localhost-5173-2025-06-22-20_21_53.png)
+<img src="https://raw.githubusercontent.com/mrmo7ox/mhtravels.ma/refs/heads/master/screencapture-localhost-5173-2025-06-22-20_21_53.png"/>
 
 ## 🌟 Overview
 
