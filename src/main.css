@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --pink: #e092bc;
+  --lav: #faf2f6;
+  --plat: #e2e2e5;
+  --blue: #5bc3e8;
+  --pink_d: #9b76a0;
+  --bg: rgba(255, 255, 255, 0.158);
+}
+
+.Archivo {
+  font-family: "Archivo";
+  font-weight: 500;
+}
+.Archivo-700 {
+  font-family: "Archivo";
+  font-weight: 700;
+}
+.Archivo-800 {
+  font-family: "Archivo";
+  font-weight: 800;
+}
+.clicked {
+  background: var(--pink_d);
+}
+
+.animated-gradient {
+  @apply bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-[length:200%_200%];
+  animation: move-bg 10s ease infinite;
+}
+
+@keyframes move-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
